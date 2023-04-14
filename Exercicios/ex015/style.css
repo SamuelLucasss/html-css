@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'noite';
+    src: url('fonts/Wonder Night.otf') format('opentype') url('fonts/Wonder Night.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: maroon;
+    background-color: rgb(248, 161, 61);
+    font-family: 'noite';
+    text-align: center;
+
+}
+
+h2 {
+    color: darkred;
+    font-family: 'noite';
+    background-color: rgb(248, 161, 61);
+}
+
+p {
+    text-align: justify;
+}
+
+main {
+    background-color: rgb(248, 161, 61);
+    border-radius: 10px;
+    width: 700px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinâmica</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Segue as fotos dinamicas abaixo, aumente e diminua a tela para carregar as imagens de tamanhos diferentes.</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem.p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem.m.png" type="image/png">
+        <img src="imagens/imagem.g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>forma simples de colocar áudio no seu site.</h1>
+    <p>Está forma você consegue colocar apenas um tipo de arquivo, mp3, ogg, wav..</p>
+    <audio src="midia/greg ferreira - eu falei pros meus mano.mp3" controls preload="metadata" loop></audio>
+
+    <h1>Reproduzindo Áudio</h1>
+        <audio preload="metadata" autoplay controls loop>
+            <source src="midia/greg ferreira - eu falei pros meus mano.mp3" type="audio/mpeg">
+            <source src="midia/greg ferreira - eu falei pros meus mano.ogg" type="audio/ogg">
+            <source src="midia/greg ferreira - eu falei pros meus mano.wav" type="audio/wav">
+            <p>Infelizmente su navegador não consegue reproduzir áudio. <a href="midia/greg ferreira - eu falei pros meus mano.mp3">Clique aqui para baixar o arquivo MP3.</a>..</p>
+       </audio>
+
+<br><br>
+        <p>Matuê - Anos Luz</p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/m226f2reF28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
